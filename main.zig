@@ -2,6 +2,6 @@ const std = @import("std");
 
 pub fn main() !void {
     const stdout = std.io.getStdOut().writer();
-    try stdout.print("Zig Commit: 3\n", .{});
-    try stdout.print("Hash: f4582d4e\n", .{});
+    try stdout.print("Zig Commit: 4\n", .{});
+    try stdout.print("Hash: b92a7c4f\n", .{});
 }
